@@ -15,14 +15,33 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="src/portfolio.css" />
+    <link rel="stylesheet" href="/src/portfolio.css" />
     <title>Portfolio</title>
   </head>
   <body cz-shortcut-listen="true">
-    <div class="about-section container">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/"> Anna Radchuk </a>
+        <ul>
+          <li class="active">
+            <a href="/"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html"> About</a>
+          </li>
+          <li>
+            <a href="/work.html"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
-          <div class="about-section-content">
+          <div class="content">
             <h1 class="mb-4">Hi I am Anna Radchuk</h1>
             <h2 class="mb-4">Frontend Developer, based in England.</h2>
             <p class="mb-5">
@@ -31,14 +50,14 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" class="btn btn-branding">See my projects</a>
+            <a href="/work.html" class="btn btn-branding">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
           <img
             src="images/зображення_viber_2022-11-25_22-04-33-913.jpg"
             alt=""
-            class="img-fluid rounded"
+            class="img-fluid"
           />
         </div>
       </div>
